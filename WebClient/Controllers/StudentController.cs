@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,12 +13,26 @@ namespace WebClient.Controllers
     public class StudentController : Controller
     {
         HttpClient client = null;
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly ISession _session;
+
+        public StudentController(IHttpContextAccessor httpContextAccessor
+            )
+        {
+            _httpContextAccessor = httpContextAccessor;
+            _session = _httpContextAccessor.HttpContext.Session;
+
+        }
         HttpClient InitHttpClient()
         {
             client = new HttpClient();
             client.BaseAddress = new Uri("https://localhost:44397/api/");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            client.DefaultRequestHeaders.Authorization =
+            new AuthenticationHeaderValue("Bearer",
+            HttpContext.Session.GetString("token"));
+
             return client;
 
 

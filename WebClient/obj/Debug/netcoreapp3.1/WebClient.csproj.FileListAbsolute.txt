@@ -114,3 +114,11 @@ C:\Users\Anamika\source\repos\WebApplication9\WebClient\obj\Debug\netcoreapp3.1\
 C:\Users\Anamika\source\repos\WebApplication9\WebClient\obj\Debug\netcoreapp3.1\Razor\Views\Student\Index.cshtml.g.cs
 C:\Users\Anamika\source\repos\WebApplication9\WebClient\obj\Debug\netcoreapp3.1\Razor\Views\Student\Create.cshtml.g.cs
 C:\Users\Anamika\source\repos\WebApplication9\WebClient\obj\Debug\netcoreapp3.1\Razor\Views\Student\Details.cshtml.g.cs
+C:\Users\Anamika\source\repos\WebApplication9\WebClient\obj\Debug\netcoreapp3.1\Razor\Views\Login\Login.cshtml.g.cs
+C:\Users\Anamika\source\repos\WebApplication9\WebClient\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Anamika\source\repos\WebApplication9\WebClient\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Anamika\source\repos\WebApplication9\WebClient\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Anamika\source\repos\WebApplication9\WebClient\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Anamika\source\repos\WebApplication9\WebClient\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Anamika\source\repos\WebApplication9\WebClient\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Anamika\source\repos\WebApplication9\WebClient\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
